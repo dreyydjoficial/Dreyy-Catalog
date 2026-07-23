@@ -1,0 +1,17 @@
+dreyy-catalog/
+
+│ index.html
+
+├── styles/
+│      style.css
+
+├── scripts/
+│      script.js
+
+└── assets/
+
+       ├── covers/
+
+       │      placeholder.jpg
+
+       └── audio/
