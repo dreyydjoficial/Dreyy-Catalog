@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DREYY | Music Producer</title>
+
+    <meta name="description" content="Official Beat Catalog of Dreyy">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+
+    <div class="background"></div>
+
+    <!-- Navigation -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            DREYY
+
+        </div>
+
+        <nav>
+
+            <a href="#catalog">Catalog</a>
+
+            <a href="#about">About</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <h1>
+
+            MUSIC<br>
+            PRODUCER
+
+        </h1>
+
+        <p>
+
+            Original beats crafted for artists worldwide.
+
+        </p>
+
+        <a href="#catalog" class="heroButton">
+
+            Explore Catalog
+
+        </a>
+
+    </section>
+
+    <!-- Search -->
+
+    <section id="catalog" class="searchSection">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search beats..."
+        >
+
+    </section>
+
+    <!-- Filters -->
+
+    <section class="filters">
+
+        <button class="active">All</button>
+
+        <button>Trap</button>
+
+        <button>Drill</button>
+
+        <button>Melodic</button>
+
+        <button>Plug</button>
+
+        <button>Rage</button>
+
+    </section>
+
+    <!-- Catalog -->
+
+    <section class="catalog">
+
+        <!-- Beat Card -->
+
+        <div class="beatCard">
+
+            <img
+            src="assets/covers/placeholder.jpg"
+            alt="Beat Cover">
+
+            <div class="beatInfo">
+
+                <h2>ECLIPSE</h2>
+
+                <span>
+
+                    140 BPM • F# Minor
+
+                </span>
+
+                <p>
+
+                    Dark Trap
+
+                </p>
+
+            </div>
+
+            <button class="playButton">
+
+                ▶
+
+            </button>
+
+        </div>
+
+        <!-- Beat Card -->
+
+        <div class="beatCard">
+
+            <img
+            src="assets/covers/placeholder.jpg"
+            alt="Beat Cover">
+
+            <div class="beatInfo">
+
+                <h2>DELINQUENTE</h2>
+
+                <span>
+
+                    150 BPM • G Minor
+
+                </span>
+
+                <p>
+
+                    Aggressive Trap
+
+                </p>
+
+            </div>
+
+            <button class="playButton">
+
+                ▶
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about">
+
+        <h2>
+
+            ABOUT
+
+        </h2>
+
+        <p>
+
+            Dreyy is a Brazilian music producer focused on creating premium beats for artists.
+            Every production is designed to inspire creativity and deliver industry-quality sound.
+
+        </p>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact">
+
+        <h2>
+
+            CONTACT
+
+        </h2>
+
+        <a
+        href="https://www.instagram.com/dreyydj/"
+        target="_blank">
+
+            Instagram
+
+        </a>
+
+    </section>
+
+    <!-- Player -->
+
+    <footer class="player">
+
+        <div class="playerLeft">
+
+            <strong>
+
+                No Beat Playing
+
+            </strong>
+
+        </div>
+
+        <div class="playerCenter">
+
+            <button id="prev">
+
+                ⏮
+
+            </button>
+
+            <button id="play">
+
+                ▶
+
+            </button>
+
+            <button id="next">
+
+                ⏭
+
+            </button>
+
+        </div>
+
+        <div class="playerRight">
+
+            00:00
+
+        </div>
+
+    </footer>
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
